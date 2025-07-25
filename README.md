@@ -99,8 +99,5 @@ This project is for personal and educational use. For commercial deployment, ple
 
 ---
 
-### ❤️ Designed & Developed by \[AJAY J]
+### ❤️ Designed & Developed by AJAY J
 
-```
-
----
