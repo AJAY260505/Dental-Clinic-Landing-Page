@@ -6,20 +6,23 @@ import logo from "@/assets/logo.png";
 export const HeroSection = () => {
   return (
     <section className="relative bg-gradient-hero min-h-screen flex items-center overflow-hidden">
-      {/* Logo + Text at top-left corner */}
-      <div className="absolute top-6 left-6 z-50 flex items-center space-x-3">
+      {/* Logo + Clinic Name */}
+      <div className="absolute top-6 left-6 z-50 flex items-center space-x-4">
         <img 
           src={logo} 
           alt="Rahim Dental Logo" 
           className="h-20 w-auto"
         />
-        <span className="text-white text-2xl font-semibold font-poppins tracking-wide">
-          Rahim Dental
-        </span>
+        <div className="leading-tight">
+          <h1 className="text-white text-3xl font-semibold font-poppins tracking-wide">
+            Rahim Dental Clinic
+          </h1>
+        </div>
       </div>
 
       <div className="container mx-auto px-4 py-20">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
+          {/* Left Text Content */}
           <div className="text-center lg:text-left">
             <h1 className="text-5xl lg:text-6xl font-bold text-white mb-6 font-poppins">
               Your Smile, <br />
@@ -53,7 +56,7 @@ export const HeroSection = () => {
             </div>
           </div>
 
-          {/* Right side image */}
+          {/* Right Image */}
           <div className="flex justify-center">
             <img 
               src={heroDentist} 
